@@ -12,7 +12,7 @@ public class MisLinks {
 		
 		String baseUrl = "http://csszengarden.com/";
 		WebDriver driver = new FirefoxDriver();
-		String titulo = "CSS Zen Garden";
+		String titulo = "CSS Zen Garden: The beauty of web design";
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		driver.get(baseUrl);
