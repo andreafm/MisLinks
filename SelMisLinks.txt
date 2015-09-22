@@ -10,9 +10,9 @@ public class MisLinks {
 
 	public static void main(String[] args) {
 		
-		String baseUrl = "http://csszengarden.com/";
+		String baseUrl = "http://newtours.demoaut.com/";
 		WebDriver driver = new FirefoxDriver();
-		String titulo = "CSS Zen Garden: The beauty of web design";
+		String titulo = "Welcome: Mercury Tours";
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 		driver.get(baseUrl);
