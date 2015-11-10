@@ -34,7 +34,7 @@ public class MisLinks {
                         + " Funciona.");
             } else {
                 System.out.println("\"" + t + "\""
-                        + " Falla.");
+                        + " No funciona.");
             }
             driver.navigate().back();
         }
